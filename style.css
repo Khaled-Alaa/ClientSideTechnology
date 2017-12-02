@@ -102,19 +102,23 @@
             height: 52;
         }
 
-        .Menue div ul {
+        .Menue .elkber {
+            margin: 0;
+        }
+
+        .Menue .elkber .mainmenu {
             list-style-type: none;
             padding: 5px 30px 5px 70px;
         }
 
-        .Menue div ul li {
-            padding: 12px 12px;
-            width: 80px;
+        .Menue .elkber .mainmenu .item {
+            padding: 5.5px 0px;
+            width: 91px;
             text-align: center;
             text-decoration: none;
         }
 
-        .Menue div ul li a {
+        .Menue .elkber .mainmenu .item a {
             color: white;
             text-decoration: none;
             font-size: 15px;
@@ -125,7 +129,7 @@
             margin: 0;
         }
 
-        .Menue .container .elkber .mainmenu .item:hover .submenu {
+        .Menue .container .elkber .mainmenu .item:hover #submenu .submenu {
             display: block;
         }
 
@@ -134,21 +138,31 @@
             display: inline-block;
         }
 
-        .Menue .container .elkber .mainmenu .item .submenu {
+        .Menue .container .elkber .mainmenu .item #submenu {
+            position: absolute;
+            left: 0px;
+        }
+
+        .Menue .container .elkber .mainmenu .item #submenu .submenu {
             background-color: #151515;
             opacity: 0.92;
-            position: absolute;
             height: 170px;
             display: none;
             top: 8px;
-            left: 0px;
             margin: 20px 0 0 0;
-            padding: 0 100px 0 0;
+            padding: 1px 80px 0 10px;
+            text-align: left;
+            width: 80px;
+            list-style-type: none;
+        }
+
+        .Menue .container .elkber .mainmenu .item #submenu .submenu .menuitem {
+            margin-top: 20px;
         }
 
         .active {
             background-color: #c52d2f;
-            padding: 5.5px 10px;
+            padding: 6px 20px;
             border-radius: 3px;
         }
         /* ======================================== Slider ======================================== */
@@ -361,25 +375,25 @@
             margin-right: 50px;
         }
 
-        .Fform .form form .A input{
+        .Fform .form form .A input {
             padding: 0 280px 20px 0;
         }
 
-        .Fform .form form .B input{
+        .Fform .form form .B input {
             padding: 0 280px 20px 0;
         }
 
-        .Fform .form form .C input{
+        .Fform .form form .C input {
             padding: 0 280px 185px 0;
         }
 
-        .Fform .form form .submitright input{
+        .Fform .form form .submitright input {
             padding: 10px 20px 11px;
             margin-top: 20px;
             border-radius: 5px;
             background-color: #C52D2F;
             border: 0;
-            color:white;
+            color: white;
             font-size: 15px;
             cursor: pointer;
         }
