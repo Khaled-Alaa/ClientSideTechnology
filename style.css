@@ -1,0 +1,385 @@
+        /* ======================================== General ======================================== */
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: gray;
+            height: 1000px;
+            color: white;
+        }
+
+        .left {
+            float: left;
+        }
+
+        .right {
+            float: right;
+        }
+
+        p.clear {
+            clear: both;
+            width: 0;
+            height: 0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 1100px;
+            margin: 0 auto;
+        }
+        /* ======================================== Header ======================================== */
+        /* ======================================== Header Contact ======================================== */
+
+        .hb,
+        .hbg,
+        .hbt {
+            display: inline-block;
+            border-radius: 3px;
+        }
+
+        .hbg {
+            background-color: #404040;
+        }
+
+        .hbt {
+            background-color: transparent;
+        }
+
+        .hb:hover,
+        .hbg:hover,
+        .hbt:hover {
+            background-color: #c52d2f;
+        }
+
+        .headerContact div>ul>li {
+            width: 30px;
+            height: 30px;
+            text-align: center;
+        }
+
+        .headerContact {
+            padding: 10px 0;
+            height: 30px;
+            line-height: 30px;
+        }
+
+        .headerContact input {
+            background-color: transparent;
+            border-color: transparent;
+            height: 30px;
+            border-width: 0px;
+            width: 70px;
+        }
+
+        .headerContact input:hover {
+            width: 170px;
+        }
+
+        .header .headerContact {
+            background-color: #191919;
+        }
+
+        .headerContact div>i {
+            font-size: 20px;
+        }
+        /* ======================================== Header Menue ======================================== */
+
+        .Menue {
+            padding: 10px 0;
+            height: 50px;
+        }
+
+        .header .Menue {
+            background-color: #151515;
+        }
+
+        .Menue div img {
+            width: 115px;
+            height: 52;
+        }
+
+        .Menue div ul {
+            list-style-type: none;
+            padding: 5px 30px 5px 70px;
+        }
+
+        .Menue div ul li {
+            padding: 12px 12px;
+            width: 80px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .Menue div ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .Menue .container .elkber .item:hover {
+            margin: 0;
+        }
+
+        .Menue .container .elkber .mainmenu .item:hover .submenu {
+            display: block;
+        }
+
+        .Menue .container .elkber .mainmenu .item {
+            position: relative;
+            display: inline-block;
+        }
+
+        .Menue .container .elkber .mainmenu .item .submenu {
+            background-color: #151515;
+            opacity: 0.92;
+            position: absolute;
+            height: 170px;
+            display: none;
+            top: 8px;
+            left: 0px;
+            margin: 20px 0 0 0;
+            padding: 0 100px 0 0;
+        }
+
+        .active {
+            background-color: #c52d2f;
+            padding: 5.5px 10px;
+            border-radius: 3px;
+        }
+        /* ======================================== Slider ======================================== */
+
+        .slider {
+            background-image: url("images/slider/bg1.jpg");
+            height: 730px;
+            background-size: cover;
+        }
+
+        .slider div i {
+            padding: 10px 15px;
+            border-radius: 3px;
+            font-size: 25px;
+            margin-top: 350px;
+            font-weight: bold;
+            background: #c52d2f;
+        }
+
+        .slider .pslider {
+            display: inline;
+        }
+
+        .slider .pslider h2 {
+            padding-top: 300px;
+            font-size: 36px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .slider .pslider h3 {
+            font-size: 20px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .slider .pslider button {
+            background-color: #c52d2f;
+            padding: 10px 15px 10px 15px;
+            border-radius: 4px;
+            border: none;
+            color: white;
+            font-size: 14px;
+        }
+
+        .slider .imgslider img {
+            height: 650px;
+            padding-top: 80px;
+            padding-right: 100px;
+        }
+        /* ======================================== recentWorks ======================================== */
+
+        .recentWorks {
+            background-color: white;
+            height: 750px;
+        }
+
+        .recentWorks div h2 {
+            color: #4e4e4e;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 75px;
+            text-align: center;
+            font-size: 35px;
+            margin-bottom: 20px;
+        }
+
+        .recentWorks .header h3 {
+            color: #4e4e4e;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 15px;
+            text-align: center;
+            font-size: 17px;
+            margin-bottom: 80px;
+        }
+
+        .recentWorks .images .image {
+            position: relative;
+            float: left;
+        }
+
+        .recentWorks .container .images div img {
+            width: 275px;
+        }
+
+        .recentWorks .container .images .image:hover>.apperance {
+            display: block;
+        }
+
+        .recentWorks .apperance {
+            background-color: #c52d2f;
+            width: 275px;
+            position: absolute;
+            z-index: 1;
+            height: 208px;
+            display: none;
+        }
+
+        .recentWorks .apperance h3 {
+            margin-top: 40px;
+            margin-left: 30px;
+            font-size: 23px;
+        }
+
+        .recentWorks .apperance h4,
+        .recentWorks .apperance h5 {
+            margin-top: 20px;
+            margin-left: 30px;
+            font-size: 15px;
+        }
+        /* ====================================== Footer ======================================== */
+
+        .headLine {
+            background-color: #c52d2f;
+            height: 4px;
+        }
+
+        .footer {
+            background-color: #2E2E2E;
+            height: 80px;
+        }
+
+        .footer .container .tail .firsttail h4 {
+            padding-top: 30px;
+            float: left;
+        }
+
+        .fbt {
+            display: inline-block;
+            padding: 5px;
+            border-radius: 3px;
+            background-color: transparent;
+        }
+
+        .fbg {
+            background-color: #2E2E2E;
+        }
+
+        .fbt:hover {
+            color: #c52d2f;
+        }
+
+        .footer .container .tail .secondtail ul {
+            padding-top: 25px;
+            float: right;
+        }
+        /* ====================================== Contact ======================================== */
+        /* ====================================== How to reach us ======================================== */
+
+        .Reach {
+            background-color: white;
+            height: 200px;
+        }
+
+        .Reach .container .titles {
+            color: #4E4E4E;
+            padding-top: 40px;
+            text-align: center;
+        }
+        /* ====================================== map ======================================== */
+
+        .Map {
+            background-image: url("images/map.jpg");
+            height: 400px;
+            background-size: cover;
+        }
+
+        .Map .container .smap {
+            padding-top: 40px;
+            padding-left: 80px;
+        }
+
+        .Map .container .smap #googlemap {
+            height: 300px;
+            border: 10px solid #F6F5F0;
+            border-radius: 50%;
+            width: 300px;
+        }
+
+        .Map .container .addreses {
+            color: black;
+            margin-top: 50px;
+        }
+
+        .Map .container .addreses .address {
+            margin: 25px 50px 0 0;
+        }
+        /* ====================================== form ======================================== */
+
+        .Fform {
+            background-color: white;
+            height: 650px;
+        }
+
+        .Fform .container .formtitles {
+            color: #4E4E4E;
+            padding-top: 40px;
+            text-align: center;
+        }
+
+        .Fform .form form {
+            padding-top: 70px;
+            color: rgb(146, 151, 147);
+        }
+
+        .Fform .form form .A {
+            padding-bottom: 20px;
+            margin-left: 50px;
+        }
+
+        .Fform .form form .B {
+            padding-bottom: 20px;
+            margin-right: 50px;
+        }
+
+        .Fform .form form .A input{
+            padding: 0 280px 20px 0;
+        }
+
+        .Fform .form form .B input{
+            padding: 0 280px 20px 0;
+        }
+
+        .Fform .form form .C input{
+            padding: 0 280px 185px 0;
+        }
+
+        .Fform .form form .submitright input{
+            padding: 10px 20px 11px;
+            margin-top: 20px;
+            border-radius: 5px;
+            background-color: #C52D2F;
+            border: 0;
+            color:white;
+            font-size: 15px;
+            cursor: pointer;
+        }
